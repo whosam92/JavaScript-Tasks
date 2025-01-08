@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>My To-Do List <span class="flag"><img src="icons/jordan.png" width="55vw"; height="60vh"></span></h1>
+    <div class="wrapper">
+      <form>
+        <input
+          id="todo-input"
+          type="text"
+          placeholder="Add a task"
+          autocomplete="off"
+        />
+        <button id="todo-button" type="submit">Add</button>
+      </form>
+      <ul id="todo-list">
+        <!-- Dynamically generated tasks will appear here -->
+      </ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
